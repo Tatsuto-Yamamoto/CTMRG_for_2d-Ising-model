@@ -31,9 +31,9 @@ using Eigen::MatrixXd;
 #define small_beta 0.0003//数値微分(差分)で用いる、微小の逆温度の幅
 
 #define N_max 100//実際に求める系の角転送行列の大きさ
-#define T_i 2.278074//最初の温度
-#define T_f 2.31//最後の温度
-#define T_step 5//温度上昇のステップ
+#define T_i 2.0//最初の温度
+#define T_f 3.0//最後の温度
+#define T_step 0.01//温度上昇のステップ
 #define dim 50//imension of CTM
 #define g 0;// g=0:free boundary condition , g=1:fixed boundary condition (z=+1)
 
