@@ -16,11 +16,11 @@
 // "2-d vertex model"
 // R.J.Baxter, J. Stat. Phys. 19, 5 (1978).
 
-// This use "Eigen" for linear algebla.
+// In this code, we use "Eigen" for linear algebla.
 // Eigen: http://eigen.tuxfamily.org/index.php?title=Main_Page
 //
-// and you will campile this as...
-// g++ -O -I (path-to-Eigen) CTMRG.cpp -o CTMRG
+// and you compile this as...
+// g++ -O -I (path-to-Eigen) CTMRG.cpp -o (proglam name)
 
 using namespace std;
 using namespace Eigen;
